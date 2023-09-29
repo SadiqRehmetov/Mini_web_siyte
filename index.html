@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Website</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        #container{
+            background-color: rgb(17, 17, 17);
+            color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            height: 10vh;
+            width: 100%;
+        }
+        #container h1{
+            width: 50px;
+            margin: 10px;
+        }
+        #link{
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        a{
+            color: antiquewhite;
+            
+        }
+        #home{
+            background: url(programmer.jpg);
+            height: 100vh;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        #info{
+            margin-left: 20px;
+        }
+        hr{
+            
+            width: 40%;
+            background-color: #ff7b00;
+            height: 10px;
+            border-radius: 20%;
+        }
+        #about{
+            display: flex;
+            justify-content: space-between;
+            
+            margin-top: 30px;
+            background-color: rgb(229, 233, 235);
+            
+        }
+        #about div{
+            width: 40%;
+            background-color: white;
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 70%;
+            
+        }
+        #about img{
+            margin: 30px;
+            box-shadow: inset;
+            border-radius: 70%;
+        }
+        #services{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #services img{
+            width: 200px;
+        }
+        #ser{
+            display: flex;
+        }
+        #ser div{
+            margin: 50px;
+            width: 200px;
+        }
+        #testimonials{
+            background-color: beige;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #testimonials h1{
+            height: 60px;
+            text-align: end;
+        }
+        #tmonials{
+            display: flex;
+            justify-content: space-around;
+            height: 55vh;
+
+        }
+        #tmonials img{
+            height: 200px;
+            
+        }
+        
+        #tmonials div{
+            width: 33%;
+            height: auto;
+            margin-left: 20px;
+        }
+        #contact{
+            background-color: lightblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #contact div{
+            display: flex;
+            justify-content: space-between;
+        }
+        #contact div p{
+            display: flex;
+            flex-direction: column;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        form input{
+            margin: 10px;
+            height: 40px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        #cont{
+            background-color: hsl(14, 100%, 50%);
+        }
+        #contact h1 form{
+            margin-top: 90px;
+        }
+        #finish{
+            background-color: rgb(15, 15, 39);
+            color: darkkhaki;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="container">
+            <h1>Programmer</h1>
+            <div id="link">
+                <a href="#home">Home</a>
+                <a href="#aboutt">About</a>
+                <a href="#services">Services</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div>
+            <div id="home">
+                <div id="info">
+                    <h1>My programmer web site</h1>
+                    <hr>
+                    <p>My name is Sadig. I'm programmer</p>
+                </div>
+            </div>
+            <div id="about">
+                <img src="picture1.avif" alt="Here is a picture.">
+                <div>
+                    <div>
+                        <h1>Get started NOW</h1>
+                        <hr>
+                        <p>Everything will be great</p>
+                    </div>
+                </div>
+            </div>
+            <div id="services">
+                <h1>Services</h1>
+                <div id="ser">
+                <div>
+                    <a href="picture3.jpg"><img src="picture3.jpg" alt="Here is a picture."></a>
+                    <p>Development of websites.
+                        Online website lessons.
+                        Quizzes, explanations...
+                    </p>
+                </div>
+                <div>
+                    <a href="picture4.png"><img src="picture4.png" alt="Here is a picture."></a>
+                    <p>FINANCIAL You can add any service you want or edit the ones that are already listed.
+                    </p>
+                </div>
+                <div>
+                    <a href="picture5.png"><img src="picture5.png" alt="Here is a picture."></a>
+                    <p>MARKETING You can edit all of this text and replace it with what you want to write.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div id="testimonials">
+                <h1>Testimonials</h1>
+                <div id="tmonials">
+                    
+                        <div>
+                            <p> 
+                            16.03.1953 Amerikalı haker, azad proqram təminatı hərəkatının və “Copyleft” nəzəriyyəsinin banisidir. O,  1985-ci ilin oktyabr ayında Azad Proqram Təminatı Fondunun (Free Software Foundation) əsasını qoymuşdur.
+                            </p>
+                            <a href="picture6.jpeg"><img src="picture6.jpeg" alt="Here is apicture."></a>
+                        
+                        </div>
+                        <div>
+                            <p>
+                                19.05.1955 Kanadalı kompüter elmləri üzrə fəlsəfə doktoru və “Java” proqramlaşdırma dilinin yaradıcısı, həmçinin NeWS və GoslingEmacs pəncərə sistemlərinin müəllifidir.
+                            </p>
+                            <a href="picture7.jpg"><img src="picture7.jpg" alt="Here is apicture." style="margin-top: 20px;"></a>
+                            
+                        </div>
+                        <div>
+                            <p> 
+                                04.07.1961 Amerikalı proqramist, “JavaScript” proqramlaşdırma dilinin yaradıcısıdır. 1995-ci ildən Natescape-de, 1998-2014 illirdə isə Mozilla Corporation-də çalışıb. Hazırda Brave Software-də icraçı direktordu.
+                            </p>
+                            <a href="picture8.jpg"><img src="picture8.jpg" alt="Here is apicture."></a>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+            <div id="contact">
+                <h1>Contact</h1>
+                <form>
+                    <div><input type="text" placeholder="Name">
+                    <input type="tel" placeholder="Phone">
+                    </div>
+                    <input type="email" placeholder="Email address">
+                    <input type="text" placeholder="Message">
+                    <input type="submit" value="CONTACT" id="cont">
+                    
+                </form>
+            </div>
+            <div id="finish">
+                <h1>Thank you very much!</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
